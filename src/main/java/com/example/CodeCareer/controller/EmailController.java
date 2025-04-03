@@ -29,10 +29,10 @@ public class EmailController {
     // @Transactional
     public String sendSimpleEmail() {
         // this.emailService.sendSimpleEmail();
-        // this.emailService.sendEmailSync("ads.hoidanit@gmail.com", "test send email",
+        // this.emailService.sendEmailSync("ads.thienvo@gmail.com", "test send email",
         // "<h1> <b> hello </b> </h1>", false,
         // true);
-        // this.emailService.sendEmailFromTemplateSync("ads.hoidanit@gmail.com", "test
+        // this.emailService.sendEmailFromTemplateSync("ads.thienvo@gmail.com", "test
         // send email", "job");
         this.subscriberService.sendSubscribersEmailJobs();
         return "ok";

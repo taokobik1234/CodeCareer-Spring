@@ -32,7 +32,7 @@ import com.example.CodeCareer.util.SecurityUtil;
 @EnableMethodSecurity(securedEnabled = true)
 public class SecurityConfiguration {
 
-    @Value("${hoidanit.jwt.base64-secret}")
+    @Value("${thienvo.jwt.base64-secret}")
     private String jwtKey;
 
     @Bean

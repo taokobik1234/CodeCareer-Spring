@@ -29,7 +29,7 @@ import com.example.CodeCareer.util.error.StorageException;
 @RequestMapping("/api/v1")
 public class FileController {
 
-    @Value("${hoidanit.upload-file.base-uri}")
+    @Value("${thienvo.upload-file.base-uri}")
     private String baseURI;
 
     private final FileService fileService;

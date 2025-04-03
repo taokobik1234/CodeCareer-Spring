@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class StaticResourcesWebConfiguration
         implements WebMvcConfigurer {
-    @Value("${hoidanit.upload-file.base-uri}")
+    @Value("${thienvo.upload-file.base-uri}")
     private String baseUri;
 
     @Override
