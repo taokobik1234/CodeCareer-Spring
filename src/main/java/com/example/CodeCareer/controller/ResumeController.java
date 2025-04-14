@@ -132,7 +132,7 @@ public class ResumeController {
 
         Specification<Resume> finalSpec = jobInSpec.and(spec);
 
-        return ResponseEntity.ok().body(this.resumeService.fetchAllResume(finalSpec, pageable));
+        return ResponseEntity.ok().body(this.resumeService.fetchAllResume(spec, pageable));
     }
 
     @PostMapping("/resumes/by-user")
